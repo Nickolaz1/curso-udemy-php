@@ -40,11 +40,24 @@ $array = [
     ),
 ];
 
+//Utilizando for
 for($i = 1; $i <= count($array); $i++){
     echo "Aluno(a): " . $array["aluno".$i]["nome"] . "<br>";
     echo "Notas: <br>";
     for($j = 1; $j <= count($array["aluno".$i]["notas"]); $j++){
         echo $j . "° bimestre: " . $array["aluno".$i]["notas"]["bimestre".$j] . ", ";
+    }
+    echo "<br><br>";
+}
+
+echo "<hr>";
+
+//Utilizando foreach
+foreach($array as $aluno){
+    echo "Aluno(a): " . $aluno["nome"] . "<br>";
+    echo "Notas: <br>";
+    foreach($aluno["notas"] as $key => $data){
+        echo "{$key}: {$data}, ";
     }
     echo "<br><br>";
 }
