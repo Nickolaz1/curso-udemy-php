@@ -1,0 +1,7 @@
+nome: nickolas, e-mail: nickolas@gmail.com, comentario: gosto bastante do php!!! <br>
+nome: nickolas, e-mail: nickolas@gmail.com, comentario: gosto bastante do php!!! <br>
+nome: sarah, e-mail: sarah@gmail.com, comentario: JavaScript é o melhor! <br>
+nome: nickolas, e-mail: nickolas@gmail.com, comentario: teste <br> 
+nome: nickolas, e-mail: nickolas@gmail.com, comentario: teste <br> 
+nome: João, e-mail: joao@gmail.com, comentario: Se um dia eu pudesse ver, meu passado inteiro, e fizesse parar de chover <br> 
+nome: nickolas, e-mail: nickolas@gmail.com, comentario: aaaaaaaaaaaaaah <br> 
