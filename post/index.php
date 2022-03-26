@@ -6,6 +6,9 @@ $nome = filter_input(INPUT_POST, "txtNome", FILTER_UNSAFE_RAW);
 $email = filter_input(INPUT_POST, "txtEmail", FILTER_SANITIZE_EMAIL);
 $funcionario = filter_input(INPUT_POST, "slFuncionario", FILTER_UNSAFE_RAW);
 
+//outra forma
+// $nome = $_POST['nome'];
+
 ?>
 
 <!DOCTYPE html>
